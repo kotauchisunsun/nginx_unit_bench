@@ -1,0 +1,15 @@
+{
+     "listeners": {
+         "*:8100": {
+             "application": "hello_python"
+         }
+     },
+     "applications": {
+         "hello_python": {
+              "type": "python",
+              "workers": 10,
+              "path": "/home/kotauchisunsun/workspace/nginx_unit_bench/python",
+              "module": "wsgi"
+         }
+     }
+}

@@ -1,0 +1,14 @@
+{
+     "listeners": {
+         "*:8100": {
+             "application": "hello_go"
+         }
+     },
+     "applications": {
+         "hello_go": {
+             "type": "go",
+              "workers": 10,
+              "executable": "/home/kotauchisunsun/workspace/nginx_unit_bench/go/hello"
+         }
+     }
+}
